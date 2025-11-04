@@ -40,8 +40,12 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ImageAdapter adapter;
     private final List<Bitmap> bitmaps = new ArrayList<>();
-    private static final String API = "http://10.0.2.2:8000/api_root/Post/?format=json";
-    private static final String API_UPLOAD = "http://10.0.2.2:8000/api_root/Post/";
+    // 배포/개발 환경 전환을 쉽게 하기 위한 BASE_URL
+    // - 배포: PythonAnywhere 도메인
+    // - 로컬 에뮬레이터 개발 시에는 10.0.2.2로 교체하면 됨
+    private static final String BASE_URL = "https://ikjun.pythonanywhere.com";
+    private static final String API = BASE_URL + "/api_root/Post/?format=json";
+    private static final String API_UPLOAD = BASE_URL + "/api_root/Post/";
 
     private static final int REQ_PICK_IMAGE = 1001;
     private String pendingTitle;
@@ -144,6 +148,10 @@ public class MainActivity extends AppCompatActivity {
                 for (int i = 0; i < arr.length(); i++) {
                     JSONObject o = arr.getJSONObject(i);
                     String imageUrl = o.getString("image");
+                    // 서버가 상대경로를 줄 경우 절대경로로 보정
+                    if (imageUrl != null && !imageUrl.startsWith("http")) {
+                        imageUrl = BASE_URL + imageUrl;
+                    }
                     HttpURLConnection ic = (HttpURLConnection) new URL(imageUrl).openConnection();
                     ic.connect();
                     Bitmap bmp = BitmapFactory.decodeStream(ic.getInputStream());
