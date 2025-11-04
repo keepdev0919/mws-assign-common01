@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Tue, 21 Oct 2025 05:54:04 GMT
+Server: WSGIServer/0.2 CPython/3.13.7
+Content-Type: application/json
+Vary: Accept, Cookie
+Allow: GET, POST, HEAD, OPTIONS
+X-Frame-Options: DENY
+Content-Length: 1739
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+
+[{"id":1,"author":null,"title":"Sample 1","text":"sample text 1","created_date":null,"published_date":null,"image":"http://10.0.2.2:8000/media/posts/sample_1.png","created_at":"2025-10-21T04:54:49.737394Z"},{"id":2,"author":null,"title":"Sample 2","text":"sample text 2","created_date":null,"published_date":null,"image":"http://10.0.2.2:8000/media/posts/sample_2.png","created_at":"2025-10-21T04:54:49.744016Z"},{"id":3,"author":null,"title":"Sample 3","text":"sample text 3","created_date":null,"published_date":null,"image":"http://10.0.2.2:8000/media/posts/sample_3.png","created_at":"2025-10-21T04:54:49.748717Z"},{"id":4,"author":null,"title":"우즈이 텐겐","text":"텐겐","created_date":null,"published_date":null,"image":"http://10.0.2.2:8000/media/posts/%E1%84%90%E1%85%A6%E1%86%AB%E1%84%80%E1%85%A6%E1%86%AB.jpeg","created_at":"2025-10-21T05:06:21.682469Z"},{"id":5,"author":null,"title":"젠이츠","text":"젠이츠","created_date":null,"published_date":null,"image":"http://10.0.2.2:8000/media/posts/%E1%84%8C%E1%85%A6%E1%86%AB%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%B3.jpeg","created_at":"2025-10-21T05:06:33.669615Z"},{"id":6,"author":null,"title":"무이치로","text":"무이치로","created_date":null,"published_date":null,"image":"http://10.0.2.2:8000/media/posts/%E1%84%86%E1%85%AE%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%B5%E1%84%85%E1%85%A9.jpeg","created_at":"2025-10-21T05:06:48.636431Z"},{"id":7,"author":1,"title":"젠이츠","text":"귀칼 젠이츠 프로필사진 업로드","created_date":"2025-10-21T14:14:00Z","published_date":"2025-10-21T14:14:00Z","image":"http://10.0.2.2:8000/media/posts/%E1%84%8C%E1%85%A6%E1%86%AB%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%B3_1D7IlB0.jpeg","created_at":"2025-10-21T05:15:17.406591Z"}]

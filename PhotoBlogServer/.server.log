@@ -1,0 +1,29 @@
+Watching for file changes with StatReloader
+/Users/choikjun/5-2/모웹프/공통평가 01/PhotoBlogServer/blog/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 21, 2025 - 04:39:12
+Django version 4.2.25, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/Users/choikjun/5-2/모웹프/공통평가 01/PhotoBlogServer/blog/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 21, 2025 - 04:52:54
+Django version 4.2.25, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 21, 2025 - 04:53:24
+Django version 4.2.25, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.photoviewer.app-debug-33:/menu_main_menu.xml.flat",
+        "source": "com.example.photoviewer.app-main-35:/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/choikjun/.gradle/daemon/9.0-milestone-1/com.example.photoviewer.app-debug-33:/layout_item_image.xml.flat",
+        "source": "/Users/choikjun/.gradle/daemon/9.0-milestone-1/com.example.photoviewer.app-main-35:/layout/item_image.xml"
+    },
+    {
+        "merged": "/Users/choikjun/.gradle/daemon/9.0-milestone-1/com.example.photoviewer.app-debug-33:/menu_main_menu.xml.flat",
+        "source": "/Users/choikjun/.gradle/daemon/9.0-milestone-1/com.example.photoviewer.app-main-35:/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/choikjun/.gradle/daemon/9.0-milestone-1/com.example.photoviewer.app-debug-33:/xml_network_security_config.xml.flat",
+        "source": "/Users/choikjun/.gradle/daemon/9.0-milestone-1/com.example.photoviewer.app-main-35:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/choikjun/.gradle/daemon/9.0-milestone-1/com.example.photoviewer.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "/Users/choikjun/.gradle/daemon/9.0-milestone-1/com.example.photoviewer.app-main-35:/layout/activity_main.xml"
+    }
+]
